@@ -92,6 +92,15 @@ a{
         transition: 0.3s; /*the links doesnt appear on the screen wait 3.0s*/
          
     }
+
+    .navItem{
+        margin: 16px 0;
+    }
+
+    /*Whenever we activate the menu class we want to display the menu*/
+    .navMenu.active{
+        Left: 0;
+    }
 }
 
 
