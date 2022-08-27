@@ -85,7 +85,6 @@ a{
         top: 70px;
         gap: 0;
         flex-direction: column;/*links in the menu to appear in a column.*/
-
         background-color: #262626; /*same color with navbar*/
         width: 100%; /**/
         text-align: center;
