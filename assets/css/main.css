@@ -31,3 +31,8 @@ a{
     align-items: center;
     gap: 60px;
 }
+
+.navBrand{
+    font-size: 2rem;
+
+}
