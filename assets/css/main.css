@@ -97,7 +97,7 @@ a{
         margin: 16px 0;
     }
 
-    /*Whenever we activate the menu class we want to display the menu*/
+    /*Whenever we activate the menu class we want to display the menu and activate through js*/
     .navMenu.active{
         Left: 0;
     }
