@@ -16,3 +16,11 @@ a{
     color: white;
     text-decoration: none;
 }
+
+.navBar{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
