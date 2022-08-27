@@ -45,5 +45,10 @@ a{
     color: dodgerblue;
 }
 
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
 
 /*https://www.youtube.com/watch?v=flItyHiDm7E*/
