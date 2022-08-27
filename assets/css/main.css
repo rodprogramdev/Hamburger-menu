@@ -78,6 +78,20 @@ a{
     .hamburger.active .bar:nth-child(3){
         transform: translateY(-8px) rotate(-45deg);
     }
+
+    .navMenu{
+        position: fixed; /*gong to ensure that menu will remain on the screen*/
+        Left: -100%; /*hide from screen*/
+        top: 70px;
+        gap: 0;
+        flex-direction: column;/*links in the menu to appear in a column.*/
+
+        background-color: #262626; /*same color with navbar*/
+        width: 100%; /**/
+        text-align: center;
+        transition: 0.3s; /*the links doesnt appear on the screen wait 3.0s*/
+         
+    }
 }
 
 
