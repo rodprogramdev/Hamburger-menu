@@ -6,3 +6,14 @@ hamburger.addEventListener("click", () =>{
   hamburger.classList.toggle("active");
   navMenu.classList.toggle("active");
 })
+
+/**
+ 
+ when we click on the menu we will close the menu 
+ We will use query selectorAll
+ */
+
+ document.querySelectorAll(".navLink").forEach(e => e.addEventListener("click", () =>{
+    hamburger.classList.remove("active") // remove the active class
+    navMenu.classList.remove("active")
+ } ))
