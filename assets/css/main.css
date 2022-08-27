@@ -36,3 +36,14 @@ a{
     font-size: 2rem;
 
 }
+
+.navLink{
+    transition: 0.7s ease;
+}
+
+.navLink:hover{
+    color: dodgerblue;
+}
+
+
+/*https://www.youtube.com/watch?v=flItyHiDm7E*/
