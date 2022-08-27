@@ -24,3 +24,10 @@ a{
     align-items: center;
     padding: 0 24px;
 }
+
+.navMenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
